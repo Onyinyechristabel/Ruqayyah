@@ -1,7 +1,8 @@
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 29rem;
+  gap: 19rem;
+  padding: 76px 36px 0;
 }
 
 .projects_cta {
@@ -9,9 +10,6 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-top: 7.6rem;
-  padding-left: 20rem;
-  padding-right: 20rem;
 }
 
 .projects_header {
@@ -53,10 +51,7 @@
 .workprojects {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  row-gap: 3rem;
-  column-gap: 2rem;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  gap: 2.4rem 2.4rem;
 }
 
 .work_work {
