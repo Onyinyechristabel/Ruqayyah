@@ -1,0 +1,149 @@
+.services {
+  display: flex;
+  padding: 8rem 0 15rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6rem;
+}
+
+.services_cta {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.services_cta_left {
+  color: #6c7179;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+}
+
+.services_cta_right {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.32rem; /* 120% */
+  letter-spacing: -0.144rem;
+  width: 63rem;
+}
+
+.services_services {
+  display: flex;
+  gap: 1.2rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.services_card_cta_heading {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+  color: #111;
+  transition: color 0.3s ease;
+}
+
+.services_card_cta_heading .text {
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.services_card_cta_heading .hover_text {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+  white-space: pre;
+}
+
+.services_card_cta_heading:hover .original {
+  transform: translateY(-100%);
+}
+
+.services_card_cta_heading:hover .hover_text {
+  transform: translateY(-100%);
+}
+
+.services_cardsrow {
+  display: flex;
+  flex-direction: column;
+  background-color: rebeccapurple;
+  gap: 2.4rem;
+  padding: 0.6rem;
+  border-radius: 2.4rem;
+  background: #f7f7f7;
+  align-items: flex-start;
+  width: 36.5rem;
+}
+
+.services_card_cta {
+  display: flex;
+  padding: 0.8rem 0.8rem 0.8rem 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  align-self: stretch;
+  border-radius: 2rem;
+  background: #fff;
+  &:hover {
+    background-color: #0f0f0f;
+  }
+}
+
+// .services_card_cta_heading {
+//   color: #111;
+//   font-family: "Instrument Sans";
+//   font-size: 2rem;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: 2.6rem; /* 130% */
+//   letter-spacing: -0.06rem;
+//   &:hover {
+//     color: #ffff;
+//   }
+// }
+
+.services_card_cta_img {
+  width: 2.4rem;
+  height: 2.4rem;
+  flex-shrink: 0;
+}
+
+.services_card_content {
+  color: #6c7179;
+  font-family: "Instrument Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.24rem; /* 140% */
+  letter-spacing: -0.048rem;
+  display: flex;
+  padding: 1.2rem;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 2rem;
+  background: #fff;
+}

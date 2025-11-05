@@ -1,0 +1,150 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 29rem;
+}
+
+.projects_cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 7.6rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.projects_header {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.32rem; /* 120% */
+  letter-spacing: -0.144rem;
+}
+
+.projects_directions {
+  display: flex;
+  padding: 1.2rem 2.4rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  border-radius: 1.6rem;
+  background: #f7f7f7;
+  width: 14.8rem;
+}
+
+.projects_direction_left {
+  color: #1f1f1f;
+  font-family: "Instrument Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.08rem; /* 130% */
+  letter-spacing: -0.048rem;
+}
+
+.projects_arrow {
+  width: 2rem;
+  height: 2rem;
+}
+
+.workprojects {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  row-gap: 3rem;
+  column-gap: 2rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.work_work {
+  position: relative;
+}
+
+.work_bg {
+  width: 54.8rem;
+  height: 40.5rem;
+  background: #e1dad0;
+  position: relative;
+  bottom: 13rem;
+  border-radius: 4rem;
+}
+.work_imga {
+  width: 54.8rem;
+  height: 41.5rem;
+  position: absolute;
+  bottom: 12.5rem;
+  border-radius: 4rem;
+  &:hover {
+    transform: scale(0.95);
+    transition: 0.5s ease-in-out;
+  }
+}
+
+.work_blackbox {
+  background-color: #0f0f0f;
+  width: 54.8rem;
+  height: 12.7rem;
+  border-radius: 0 0 4rem 4rem;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  bottom: 12rem;
+}
+
+.work_blacktext {
+  color: #fff;
+  font-family: "Instrument Sans";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.12rem; /* 130% */
+  letter-spacing: -0.072rem;
+  padding-top: 2.4rem;
+  padding-left: 2.4rem;
+}
+
+.work_blackcard {
+  display: flex;
+  padding-left: 2.4rem;
+  align-items: center;
+  gap: 1.2rem;
+  padding-top: 1.2rem;
+}
+
+.work_blackcard1 {
+  color: #fff;
+  font-family: "Instrument Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.24rem; /* 140% */
+  letter-spacing: -0.048rem;
+  height: 3.5424rem;
+  display: flex;
+  padding: 0.6rem 1.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.2rem;
+  border: 1px solid #d1d3d6;
+}
+
+.work_blackcard2 {
+  color: #fff;
+  font-family: "Instrument Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.24rem; /* 140% */
+  letter-spacing: -0.048rem;
+  height: 3.5424rem;
+  display: flex;
+  padding: 0.6rem 1.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.2rem;
+  border: 1px solid #d1d3d6;
+}

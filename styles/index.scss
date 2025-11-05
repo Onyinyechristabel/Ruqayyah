@@ -6,7 +6,11 @@ $breakpoints: (
   "desktop": 1920px,
 ) !default;
 
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+
 @import "../node_modules/include-media/dist/include-media";
+
+//font-family: "Instrument Sans", sans-serif;
 
 html {
   font-size: calc(100vw / 1440 * 10);
@@ -49,3 +53,6 @@ body {
 @import "./components/header.scss";
 @import "./components/hero.scss";
 @import "./components/footer.scss";
+@import "./components/projects.scss";
+@import "./components/services.scss";
+@import "./components/words.scss";
