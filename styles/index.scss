@@ -12,6 +12,13 @@ $breakpoints: (
 
 //font-family: "Instrument Sans", sans-serif;
 
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 html {
   font-size: calc(100vw / 1440 * 10);
   @include media("<phone") {
