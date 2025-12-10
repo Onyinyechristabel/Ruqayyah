@@ -1,7 +1,699 @@
 .about {
-  background-color: red;
+  padding-top: 10rem;
 }
 
 .about_h2 {
-  font-size: 20rem;
+  color: #6c7179;
+  text-align: center;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+}
+
+.about_spans {
+  display: flex;
+  gap: 1.6rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.4rem;
+}
+
+.about_spans span:nth-of-type(1) {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.32rem; /* 120% */
+  letter-spacing: -0.144rem;
+}
+
+.about_spans span:nth-of-type(2) {
+  width: 4.6002rem;
+  height: 4.8007rem;
+}
+
+.about_spans span:nth-of-type(3) {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.32rem; /* 120% */
+  letter-spacing: -0.144rem;
+}
+
+.about_spans span:nth-of-type(4) {
+  width: 4.6002rem;
+  height: 4.8007rem;
+}
+
+.about_spans span:nth-of-type(5) {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.32rem; /* 120% */
+  letter-spacing: -0.144rem;
+}
+
+.about_spans span:nth-of-type(6) {
+  width: 4.6002rem;
+  height: 4.8007rem;
+}
+
+.about_p1 {
+  display: flex;
+  width: 82.821rem;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #6c7179;
+  text-align: center;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+  text-align: center;
+  padding-top: 2.4rem;
+  margin: auto;
+}
+
+.about_p2 {
+  display: flex;
+  width: 83.577rem;
+  align-items: center;
+  justify-content: center;
+  color: #6c7179;
+  text-align: center;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+  padding-top: 2rem;
+  margin: auto;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.about_jpegs {
+  display: flex;
+  gap: 1rem;
+  padding-top: 5.6rem;
+  animation: scrolling 5s linear infinite;
+}
+
+.about_jpegs img {
+  width: 28rem;
+  height: 32.752rem;
+  flex-shrink: 0;
+}
+
+.about_shadow {
+  background-color: red;
+  width: 2rem;
+  height: 2rem;
+}
+
+.about_shadow2 {
+  background-color: red;
+  width: 2rem;
+  height: 2rem;
+}
+
+.about_explore {
+  display: flex;
+  padding: 12rem 39.6rem 15rem 39.6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.about_explore1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.about_netflix {
+  display: flex;
+  height: 45rem;
+  padding: 2.4rem 2.4rem 30.842rem 2.4rem;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 4rem;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.netflixlogo {
+  width: 4rem;
+  height: 4rem;
+  flex-shrink: 0;
+}
+
+.about_netflix h2 {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.12rem; /* 130% */
+  letter-spacing: -0.072rem;
+  margin-top: 1.6rem;
+}
+
+.about_netflix p {
+  color: #6c7179;
+  font-family: "Instrument Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.24rem; /* 140% */
+  letter-spacing: -0.048rem;
+  margin-top: 0.8rem;
+}
+
+.netfliximg {
+  width: 32rem;
+  height: 46.872rem;
+  margin-top: 2.1rem;
+  transition: 0.5s ease;
+  &:hover {
+    transform: translateY(-9rem);
+  }
+}
+
+.about_quote {
+  display: flex;
+  padding: 5.502rem 2.4rem 5.503rem 2.4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+  align-self: stretch;
+  border-radius: 4rem;
+  background: #f7f7f7;
+  transition: 0.5s ease;
+  &:hover {
+    background-color: wheat;
+  }
+}
+
+.about_quote img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.about_quote h3 {
+  color: #6c7179;
+  font-family: "Instrument Sans";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.12rem; /* 130% */
+  letter-spacing: -0.072rem;
+  margin-top: 1.6rem;
+}
+
+.about_quote h2 {
+  width: 26.7rem;
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 5.28rem; /* 110% */
+  letter-spacing: -0.144rem;
+  margin-top: 1.4rem;
+}
+
+.about_quote p {
+  color: #6c7179;
+  font-family: "Instrument Sans";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.12rem; /* 130% */
+  letter-spacing: -0.072rem;
+  width: 30.9rem;
+  margin-top: 1.6rem;
+}
+
+.about_music {
+  height: 45rem;
+  min-height: 45rem;
+  align-self: stretch;
+  border-radius: 4rem;
+  background: #f7f7f7;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &:hover .about_spotify {
+    transform: translateY(0);
+  }
+  &:hover .about_music_pro {
+    opacity: 1;
+  }
+}
+
+.about_spotify {
+  display: flex;
+  width: 32rem;
+  padding: 1.2rem 1.6rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  border-radius: 1.6rem;
+  background: #fff;
+  box-shadow: 0 0.723px 0.723px -0.833px rgba(0, 0, 0, 0.08),
+    0 2.746px 2.746px -1.667px rgba(0, 0, 0, 0.08),
+    0 12px 12px -2.5px rgba(0, 0, 0, 0.08);
+}
+
+.about_spotify h3 {
+  color: #1f1f1f;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+}
+
+.about_div {
+  display: flex;
+  gap: 1rem;
+}
+
+.about_spotify img:nth-of-type(1) {
+  width: 3.2rem;
+  height: 3.2rem;
+  flex-shrink: 0;
+  border-radius: 10rem;
+}
+
+.about_spotify img:nth-of-type(2) {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+
+.about_spotifys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1.2rem;
+}
+
+.about_spotify:nth-of-type(1) {
+  width: 32rem;
+  transform: translateY(3rem);
+  position: relative;
+  z-index: 3;
+  transition: 0.5s ease;
+}
+
+.about_spotify:nth-of-type(2) {
+  width: 30rem;
+  transform: translateY(-3rem);
+  position: relative;
+  z-index: 2;
+  transition: 0.5s ease;
+}
+
+.about_spotify:nth-of-type(3) {
+  width: 28rem;
+  transform: translateY(-9rem);
+  position: relative;
+  z-index: 1;
+  transition: 0.5s ease;
+}
+
+.about_music_pro {
+  display: flex;
+  width: 22rem;
+  padding: 1.2rem 1.6rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  border-radius: 2.4rem;
+  background: lightgreen;
+  position: relative;
+  top: -1.7rem;
+  opacity: 0;
+}
+
+.about_music_pro img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.about_music_pro h2 {
+  color: #fff;
+  font-family: "Instrument Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+}
+
+.about_explore2 {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.about_ss {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 1.2rem;
+}
+
+.about_socials {
+  display: flex;
+  width: 36.8rem;
+  padding: 2.4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 4rem;
+  background: #f7f7f7;
+}
+
+.about_socials h2 {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.12rem; /* 130% */
+  letter-spacing: -0.072rem;
+}
+
+.about_social_div {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  &:hover.about_social_div img {
+    background-color: black;
+  }
+}
+
+.about_social_div img {
+  display: flex;
+  width: 4.8rem;
+  height: 4.8rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.2rem;
+  padding: 1.2rem;
+  background-color: #fff;
+  z-index: 1;
+  transition: 0.5s ease;
+}
+
+.about_social_div p {
+  color: #6c7179;
+  font-family: "Instrument Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.24rem; /* 140% */
+  letter-spacing: -0.048rem;
+}
+
+.about_books {
+  display: flex;
+  padding: 2.4rem;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 4rem;
+  background: #f7f7f7;
+  width: 74.8rem;
+  gap: 3rem;
+  height: 33.2rem;
+  overflow: hidden;
+}
+
+.about_booktitle {
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+}
+
+.about_booktitle img {
+  width: 4rem;
+  height: 4rem;
+  flex-shrink: 0;
+}
+
+.about_booktitle_content h2 {
+  color: #6c7179;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+}
+
+.about_booktitle_content h1 {
+  color: #1f1f1f;
+  font-family: "Instrument Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.32rem; /* 120% */
+  letter-spacing: -0.144rem;
+  width: 25.8rem;
+  margin-top: 0.8rem;
+}
+
+.about_bookimg {
+  width: 35.1rem;
+  height: 60.714rem;
+  transition: 0.5s ease;
+  &:hover {
+    transform: translateY(-30rem);
+  }
+}
+
+.about_explore3 {
+  display: flex;
+  height: 38.5rem;
+  padding: 2.4rem;
+  align-items: flex-start;
+  gap: 4rem;
+  flex: 1 0 0;
+  border-radius: 4rem;
+  background: #f7f7f7;
+  width: 112.8rem;
+}
+
+.about_cod {
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+}
+
+.about_cod img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.about_cod_content h2 {
+  color: #6c7179;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+}
+
+.about_cod_content h1 {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.32rem; /* 120% */
+  letter-spacing: -0.144rem;
+  width: 32rem;
+}
+
+.about_cod_img {
+  width: 72rem;
+  height: 33.192rem;
+  border-radius: 1.2rem;
+}
+
+.about_experience {
+  display: flex;
+  flex-direction: column;
+  height: 41.919rem;
+  padding: 0 16rem 8.019rem 16rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.about_experience_div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.about_experience h1 {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.32rem; /* 120% */
+  letter-spacing: -0.144rem;
+}
+
+.about_work_experience {
+  display: flex;
+  padding: 1.6rem 2.4rem;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 1.6rem;
+  background: #f7f7f7;
+  width: 112rem;
+  transition: 0.5s ease;
+  &:hover {
+    background-color: wheat;
+  }
+}
+
+.about_work_experience h2 {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+  width: 32rem;
+}
+
+.about_work_experience p {
+  color: #6c7179;
+  font-family: "Instrument Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.24rem; /* 140% */
+  letter-spacing: -0.048rem;
+  width: 32rem;
+  text-align: center;
+}
+
+.about_work_experience h3 {
+  color: #6c7179;
+  text-align: right;
+  font-family: "Instrument Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.24rem; /* 140% */
+  letter-spacing: -0.048rem;
+  width: 32rem;
+}
+
+.about_tools {
+  display: flex;
+  max-width: 112rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+  padding: 0 16rem 12.02rem 16rem;
+}
+
+.about_tools h2 {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.32rem; /* 120% */
+  letter-spacing: -0.144rem;
+}
+
+.about_tools_content {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 0.8rem;
+}
+
+.about_tools_details {
+  display: flex;
+  padding: 1.6rem;
+  align-items: center;
+  gap: 1.6rem;
+  border-radius: 1.6rem;
+  background: #f7f7f7;
+  width: 55.6rem;
+}
+
+.about_tools_details img {
+  width: 5.6rem;
+  height: 5.6rem;
+  flex-shrink: 0;
+}
+
+.about_tools_div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.about_tools_div h3 {
+  color: #111;
+  font-family: "Instrument Sans";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.6rem; /* 130% */
+  letter-spacing: -0.06rem;
+}
+
+.about_tools_div p {
+  color: #6c7179;
+  font-family: "Instrument Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.24rem; /* 140% */
+  letter-spacing: -0.048rem;
 }
